@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: My Own BPEP
+Bundle-SymbolicName: GenerateOwnPlugin;singleton:=true
+Bundle-Version: 1.0.0.SNAPSHOT
+Bundle-Activator: main.java.com.own.plugin.bpep.Activator
+Export-Package: main.java.com.own.plugin.bpep,
+ main.java.com.own.plugin.bpep.generator,
+ main.java.com.own.plugin.bpep.popup.actions,
+ main.java.com.own.plugin.bpep.regex,
+ main.java.com.own.plugin.bpep.view
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.jdt.core;bundle-version="3.37.0",
+ org.eclipse.jdt.ui;bundle-version="3.32.0",
+ org.eclipse.jface.text;bundle-version="3.25.0",
+ org.eclipse.core.runtime;bundle-version="3.31.0",
+ org.eclipse.ui.workbench.texteditor;bundle-version="3.17.300",
+ org.eclipse.core.resources;bundle-version="3.20.100",
+ org.eclipse.ui.forms;bundle-version="3.13.200",
+ org.eclipse.ui.ide;bundle-version="3.22.100",
+ org.eclipse.text.quicksearch;bundle-version="1.2.300"
+Automatic-Module-Name: GenerateOwnPlugin
+Bundle-RequiredExecutionEnvironment: JavaSE-17
